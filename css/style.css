@@ -1,6 +1,5 @@
 .meta {
 text-align: center;
-margin-top: 100px;
 font-family:STCaiyun;
 padding: 1px;
 }
@@ -8,6 +7,7 @@ padding: 1px;
 width: 600px;
 max-width: 100%;
 margin: 0 auto;
+font-family: Serif;
 }
 .landing-buttons {
 text-align: center;        	
@@ -23,7 +23,16 @@ text-align: center;
 }
 
 .footer {
-padding: 18px;
+padding: 50px;
 text-align: center;
 font-size: 12px
+}
+
+.swiper-button-prev {
+	right: 10px;
+    left: auto;
+}
+.swiper-button-next{
+	right: 10px;
+    left: auto;
 }

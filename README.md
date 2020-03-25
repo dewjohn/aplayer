@@ -7,7 +7,9 @@ aplayer静态网页播放器
 
 歌单形式，无需手动添加歌曲
 
-支持的音乐平台:music platform: netease, tencent, kugou, xiami, baidu
+可自定义添加任意个歌单，左右切换
+
+支持的音乐平台:netease, tencent
 
 查看更多:[MetingJS](https://github.com/metowolf/MetingJS "MetingJS")
 
@@ -20,4 +22,4 @@ aplayer静态网页播放器
 
 
 
-![](https://cdn.jsdelivr.net/gh/a2396837/hexophoto/hexophoto/ffgweww325664t.jpg)
+![](https://cdn.jsdelivr.net/gh/a2396837/hexophoto/hexophoto/v223t344hrhfdbbsbs.jpg)

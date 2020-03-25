@@ -2,39 +2,112 @@
 <html>
 <head>
 	<title>DmxZ -  I miss U</title>
-     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
     <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 
+</head>
 <body>
-    <div class="meta">
+<div class="meta">
     <h1>DmxZ</h1>
-    <h2>🍭音乐世界🍭</h2>
-    </div>
-    <div class="aplayer-wrap">
-        <meting-js
-            autoplay="true"
-            server="netease"
-            type="playlist"
-            id="642330848">
-        </meting-js>    
-    </div>
+    <h2>🍭音乐电台🍭</h2>
+</div>
+<div class="swiper-container">
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-button-next"></div> 
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="aplayer-wrap">
+          <h3 style="text-align: center">✨云音乐热歌榜✨</h3>
+          	<meting-js
+	            autoplay="true"
+	            server="netease"
+	            type="playlist"
+	            id="3778678">
+            </meting-js>  
+          </div>
+       </div>
+        <div class="swiper-slide">
+          <div class="aplayer-wrap">
+          <h3 style="text-align: center">✨云音乐飙升榜✨</h3>
+          	<meting-js
+	            autoplay="true"
+	            server="netease"
+	            type="playlist"
+	            id="19723756">
+            </meting-js>    
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="aplayer-wrap">
+          <h3 style="text-align: center">✨云音乐新歌榜✨</h3>
+          	<meting-js
+	            autoplay="true"
+	            server="netease"
+	            type="playlist"
+	            id="3779629">
+            </meting-js>    
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="aplayer-wrap">
+          <h3 style="text-align: center">✨作者网易云歌单✨</h3>
+          	<meting-js
+	            autoplay="true"
+	            server="netease"
+	            type="playlist"
+	            id="642330848">
+            </meting-js>  
+          </div>
+       </div> 
+        <div class="swiper-slide">
+          <div class="aplayer-wrap">
+          <h3 style="text-align: center">✨作者QQ音乐歌单✨</h3>
+          	<meting-js
+	            autoplay="true"
+	            server="tencent"
+	            type="playlist"
+	            id="6549744341">
+            </meting-js>  
+          </div>
+       </div> 
+
+</div>
+
     <div class="landing-buttons">
         <a class="landing-button" target="_blank" href="https://dmx.pub" style="text-decoration:none">
-            回到博客
+            作者博客
         </a>
         <a class="landing-button" target="_blank" href="https://dmx.pub/guestbook/" style="text-decoration:none">
             给我留言
         </a>
+        <a class="landing-button" target="_blank" href="https://dmx.pub/guestbook/" style="text-decoration:none">
+            推荐歌单
+        </a>
     </div>
 <footer class="footer">
-     <!--卑微作者想留个出处,扒站的请给个面子-->
-     <p>Copyright ©2020 Powered by : <a href="https://dmx.pub" style="text-decoration:none" >DmxZ</a></p>
+     <!--源码下载地址: https://github.com/a2396837/aplayer-html5-->
+     <p>Copyright ©2020 Powered by : <a href="https://dmx.pub" style="text-decoration:none" >DmxZ</a> V2.0</p>
         
 </footer>
-<script type="text/javascript" size="150" alpha='0.8' zIndex="-2" src="js/ribbon.js"></script>
+
+<script src="js/swiper.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    loop: true, 
+    
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })       
+ </script>
+ <script type="text/javascript" size="150" alpha='0.8' zIndex="-2" src="js/ribbon.js"></script>
 </body>
 </html>
