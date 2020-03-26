@@ -16,7 +16,7 @@
     <h1>DmxZ</h1>
     <h2>🍭音乐电台🍭</h2>
 </div>
-	<div class="swiper-container">
+<div class="swiper-container">
 	 <div class="swiper-button-prev"></div>
 	 <div class="swiper-button-next"></div> 
 	    <div class="swiper-wrapper">
@@ -24,7 +24,8 @@
 	          <div class="aplayer-wrap">
 	          <h3 style="text-align: center">✨云音乐热歌榜✨</h3>
 	          	<meting-js
-	          	    autoplay="false"
+	          	    list-max-height="330px"
+	          	    autoplay="true"
 		            server="netease"
 		            type="playlist"
 		            id="3778678">
@@ -36,6 +37,7 @@
 	          <h3 style="text-align: center">✨云音乐飙升榜✨</h3>
 	          	<meting-js
 	          	    preload="none"
+	          	    list-max-height="330px"
 		            server="netease"
 		            type="playlist"
 		            id="19723756">
@@ -47,6 +49,7 @@
 	          <h3 style="text-align: center">✨云音乐新歌榜✨</h3>
 	          	<meting-js
 	          	    preload="none"
+	          	    list-max-height="330px"
 		            server="netease"
 		            type="playlist"
 		            id="3779629">
@@ -58,6 +61,7 @@
 	          <h3 style="text-align: center">✨作者网易云歌单✨</h3>
 	          	<meting-js
 	          	    preload="none"
+	          	    list-max-height="330px"
 		            server="netease"
 		            type="playlist"
 		            id="642330848">
@@ -69,6 +73,7 @@
 	          <h3 style="text-align: center">✨作者QQ音乐歌单✨</h3>
 	          	<meting-js
 	          	    preload="none"
+	          	    list-max-height="330px"
 		            server="tencent"
 		            type="playlist"
 		            id="6549744341">
@@ -95,7 +100,7 @@
         
 </footer>
 
-<script src="js/swiper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/a2396837/dmx_js@3.0/swiper.min.js"></script>
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     loop: true, 

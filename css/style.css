@@ -1,7 +1,6 @@
 .meta {
 text-align: center;
 font-family:STCaiyun;
-padding: 1px;
 }
 .aplayer-wrap {
 width: 600px;
@@ -25,13 +24,4 @@ text-align: center;
 .footer {
 text-align: center;
 font-size: 12px
-}
-
-.swiper-button-prev {
-	right: 10px;
-    left: auto;
-}
-.swiper-button-next{
-	right: 10px;
-    left: auto;
 }
