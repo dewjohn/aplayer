@@ -5,17 +5,13 @@
 	<meta charset="utf-8">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 
 </head>
 <body>
-<div class="meta">
-    <h1>DmxZ</h1>
-    <h2>🍭音乐电台🍭</h2>
-</div>
+
+
 <div class="swiper-container">
 	 <div class="swiper-button-prev"></div>
 	 <div class="swiper-button-next"></div> 
@@ -25,7 +21,6 @@
 	          <h3 style="text-align: center">✨云音乐热歌榜✨</h3>
 	          	<meting-js
 	          	    list-max-height="330px"
-	          	    autoplay="true"
 		            server="netease"
 		            type="playlist"
 		            id="3778678">
@@ -83,6 +78,7 @@
 	        </div> 
 </div>
 
+
 <div class="landing-buttons">
      <a class="landing-button" target="_blank" href="https://dmx.pub" style="text-decoration:none">
         作者博客
@@ -97,11 +93,12 @@
 </div>
 <footer class="footer">
      <!--源码下载地址: https://github.com/a2396837/aplayer-html5-->
-     <p>Copyright ©2020 Powered by : <a href="https://dmx.pub" style="text-decoration:none" >DmxZ</a></p>
+     <p>Copyright ©2020 Design By : <a href="https://dmx.pub" style="text-decoration:none" >DmxZ</a></p>
         
 </footer>
-
-<script src="https://cdn.jsdelivr.net/gh/a2396837/dmx_js@3.0/swiper.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     loop: true, 
