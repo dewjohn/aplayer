@@ -1,6 +1,9 @@
 aplayer静态网页播放器
 
 
+🎉demo: [https://dewjohn.github.io/aplayer/](https://dewjohn.github.io/aplayer/ "https://dewjohn.github.io/aplayer/")
+
+
 仿照aplayer首页[aplayer.js.org](http://aplayer.js.org "aplayer.js.org")
 
 ✨特征:
@@ -18,8 +21,3 @@ aplayer静态网页播放器
 2. 修改index.html文件
 3. 修改域名
 
-🎉demo: [https://dewjohn.github.io/aplayer/](https://dewjohn.github.io/aplayer/ "https://dewjohn.github.io/aplayer/")
-
-
-
-![](https://cdn.jsdelivr.net/gh/a2396837/hexophoto/hexophoto/v223t344hrhfdbbsbs.jpg)
