@@ -18,7 +18,7 @@ aplayer静态网页播放器
 2. 修改index.html文件
 3. 修改域名
 
-🎉demo: [dmx.best](https://dmx.best/ "dmx.best")
+🎉demo: [https://dewjohn.github.io/aplayer/](https://dewjohn.github.io/aplayer/ "https://dewjohn.github.io/aplayer/")
 
 
 
